@@ -43,4 +43,4 @@ jobs:
             NODE_VERSION=14.15.4
             YARN_VERSION=1.22.5
           push: true
-          tags: ${{ env.REGISTRY }}/${{ github.repository_owner }}/${{ env.IMAGE_NAME }}/docker-php:8.1-dev-node-14
+          tags: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}/docker-php:8.1-dev-node-14
