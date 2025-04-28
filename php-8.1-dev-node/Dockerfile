@@ -1,4 +1,4 @@
-FROM ghcr.io/cheppers/docker-php:8.1-dev
+FROM ghcr.io/cheppers/docker-php/docker-php:8.1-dev
 
 ARG NODE_VERSION
 ARG YARN_VERSION
